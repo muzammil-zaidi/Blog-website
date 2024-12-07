@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+header {
+    
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding:  250px;
+    background-image: url(https://images.unsplash.com/photo-1478737270239-2f02b77fc618?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHN0dWRpbyUyMHJlY29yZGluZ3xlbnwwfHwwfHx8MA%3D%3D); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    padding: 100px;
+
+}
+nav ul {
+    padding: 10px;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 30px;
+
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: rgb(110, 79, 79);
+    text-decoration: underline;
+    font-size: 19px;
+}
+
+.topic {
+    margin-top: 30px;
+
+}
+
+.topic h1 {
+    font-size: 36px;
+}
+
+.topic p {
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.posts-container {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #28332f;
+    color: rgb(197, 202, 207);
+    background-image: url(https://img.freepik.com/premium-vector/dark-concrete-background-with-grunge-effect_278222-9629.jpg);
+
+}
+
+.about-section p {
+    font-size: 18px;
+
+}
+
+#blog {
+    
+    background-image: url(https://img.freepik.com/premium-vector/dark-concrete-background-with-grunge-effect_278222-9629.jpg);
+    padding: 20px;
+
+}
+
+#blogpost {
+    font-size: 28px;
+    color: #f3ecec;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.posts-container {
+    line-height: 1.6;
+    font-family: 'Georgia', serif;
+    color: #f3efef;
+    border: 1px solid #10c275;
+    border-radius: 15px;
+    background: #111010;
+    padding: 0px 10px;
+    
+}
+
+.posts-container p {
+    margin: 10px 0;
+
+}
+
+.posts-container p strong {
+    font-size: 20px;
+    color: #367058;
+
+}
+
+.p2:hover {
+    color: #ffffff;
+    background-color: #2f2c36;
+    padding: 50px;
+
+}
+
+img {
+    width: 18%;
+    height: 18%;
+    margin-top: 20px;
+    border-radius: 40%;
+
+}
+.contentimg {
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+footer {
+    background-color: #2f2c36;
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.contact-section {
+    background-image: url(https://www.shutterstock.com/image-photo/contact-us-help-centre-customer-600nw-2067798464.jpg); 
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px;
+    color: black;
+    text-align: center;
+
+}
+
+form {
+    background: rgba(255, 254, 254, 0.8);
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+form label {
+    display: block;
+    font-size: 1.0em;
+    margin: 10px 0 5px;
+    text-align: left;
+
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px -10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #007BFF; 
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+
+}
+
+form button {
+    background-color: #133150; 
+    color: white;
+    font-size: 1em;
+    border: #000000;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+
+}
+
+form button:hover {
+    background-color: #2e353d;
+
+}
+p strong {
+    text-align: right;
+    margin-bottom: 20px;
+
+}
